@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="cz.lamorak.weather.android"
     android:installLocation="auto">
@@ -18,6 +19,9 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".activity.MainActivity" >
+        </activity>
     </application>
 
 </manifest>

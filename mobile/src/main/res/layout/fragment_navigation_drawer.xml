@@ -1,0 +1,12 @@
+<ListView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/drawer_vertical_padding"
+    android:paddingBottom="@dimen/drawer_vertical_padding"
+    android:choiceMode="singleChoice"
+    android:listSelector="@drawable/selector_drawer_item_background"
+    android:divider="@android:color/transparent"
+    android:dividerHeight="0dp"
+    android:background="@color/drawerBackground"
+    tools:context="cz.lamorak.weather.android.fragment.NavigationDrawerFragment" />

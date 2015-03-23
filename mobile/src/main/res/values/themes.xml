@@ -1,0 +1,30 @@
+<resources>
+    <!-- Splash screen background image -->
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryColorDark</item>
+    </style>
+
+    <!-- Toolbar -->
+    <style name="AppTheme.Toolbar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="selectableItemBackground">@drawable/selector_drawer_item_background</item>
+    </style>
+
+    <style name="AppTheme.NavigationDrawerItem">
+        <item name="android:textColor">@color/selector_drawer_text_color</item>
+        <item name="android:textSize">@dimen/drawer_item_text_size</item>
+        <item name="android:background">@color/drawerItemBackground</item>
+        <item name="android:paddingLeft">@dimen/drawer_item_padding</item>
+        <item name="android:paddingRight">@dimen/drawer_item_padding</item>
+        <item name="android:drawablePadding">@dimen/drawer_item_icon_padding</item>
+    </style>
+
+</resources>
