@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme.Vertical">
+        <item name="android:orientation">horizontal</item>
+    </style>
+
+    <style name="AppTheme.Horizontal">
+        <item name="android:orientation">vertical</item>
+    </style>
+</resources>

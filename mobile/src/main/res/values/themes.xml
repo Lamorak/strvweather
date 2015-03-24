@@ -4,11 +4,13 @@
         <item name="android:windowBackground">@drawable/splash_screen</item>
     </style>
 
+
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryColorDark</item>
     </style>
+
 
     <!-- Toolbar -->
     <style name="AppTheme.Toolbar" parent="@style/ThemeOverlay.AppCompat.ActionBar">
@@ -18,6 +20,8 @@
         <item name="selectableItemBackground">@drawable/selector_drawer_item_background</item>
     </style>
 
+
+    <!-- Navigation drawer -->
     <style name="AppTheme.NavigationDrawerItem">
         <item name="android:textColor">@color/selector_drawer_text_color</item>
         <item name="android:textSize">@dimen/drawer_item_text_size</item>
@@ -25,6 +29,55 @@
         <item name="android:paddingLeft">@dimen/drawer_item_padding</item>
         <item name="android:paddingRight">@dimen/drawer_item_padding</item>
         <item name="android:drawablePadding">@dimen/drawer_item_icon_padding</item>
+    </style>
+
+
+    <!-- Today screen styles -->
+    <style name="AppTheme.TodayCityLabel">
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">#404040</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:layout_gravity">center</item>
+        <!--<item name="android:fontFamily">light</item>-->
+    </style>
+
+    <style name="AppTheme.TodayConditionsLabel">
+        <item name="android:textSize">33dp</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:gravity">center</item>
+        <item name="android:maxLines">3</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_gravity">center</item>
+        <!--<item name="android:text">light</item>-->
+    </style>
+
+    <style name="AppTheme.TodayDetailLabel">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#404040</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:minWidth">@dimen/today_detail_minwidth</item>
+        <item name="android:layout_marginTop">@dimen/today_detail_vertical_margin</item>
+        <item name="android:layout_marginBottom">@dimen/today_detail_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/today_detail_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/today_detail_horizontal_margin</item>
+        <item name="android:drawablePadding">@dimen/today_detail_drawable_margin</item>
+    </style>
+
+    <style name="AppTheme.TodayDivider">
+        <item name="android:layout_margin">@dimen/today_divider_margin</item>
+        <item name="android:background">@color/divider_today</item>
+    </style>
+
+    <style name="AppTheme.Vertical">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="AppTheme.Horizontal">
+        <item name="android:orientation">horizontal</item>
     </style>
 
 </resources>

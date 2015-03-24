@@ -3,10 +3,14 @@
     <color name="primaryColor">#7fa5e3</color>
     <color name="primaryColorDark">#6684b6</color>
 
+    <!-- Navigation drawer colors -->
     <color name="drawerBackground">#ffffff</color>
     <color name="drawerTextColor">#333333</color>
     <color name="drawerTextSelected">#99b7e9</color>
     <color name="drawerItemBackground">@android:color/transparent</color>
     <color name="drawerItemBackgroundPressed">#33333333</color>
+
+    <!-- Today screen colors -->
+    <color name="divider_today">#dedede</color>
 
 </resources>
