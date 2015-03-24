@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Values for landscape on large devices -->
+<resources>
+    <!-- Forecast screen themes -->
+    <style name="AppTheme.ForecastGrid">
+        <item name="android:numColumns">2</item>
+    </style>
+</resources>

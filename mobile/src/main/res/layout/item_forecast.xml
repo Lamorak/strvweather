@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/forecast_item_horizontal_padding"
+    android:paddingRight="@dimen/forecast_item_horizontal_padding"
+    android:paddingTop="@dimen/forecast_item_vertical_padding"
+    android:paddingBottom="@dimen/forecast_item_vertical_padding">
+
+    <ImageView
+        android:id="@+id/forecast_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:scaleType="center"
+        android:background="@drawable/ic_overlay_weather_status_forecast" />
+
+    <TextView
+        android:id="@+id/forecast_day"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/forecast_icon"
+        android:layout_marginLeft="@dimen/forecast_icon_margin"
+        android:text="Monday"
+        style="@style/AppTheme.ForecastDayLabel" />
+
+    <TextView
+        android:id="@+id/forecast_temperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/forecast_day"
+        android:layout_alignBottom="@+id/forecast_conditions"
+        android:text="104°C"
+        style="@style/AppTheme.ForecastTempreratureLabel" />
+
+    <TextView
+        android:id="@+id/forecast_conditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/forecast_day"
+        android:layout_marginLeft="@dimen/forecast_conditions_marginLeft"
+        android:layout_below="@+id/forecast_day"
+        android:layout_marginTop="@dimen/forecast_conditions_marginTop"
+        android:text="Thunderstorm with light rain"
+        style="@style/AppTheme.ForecastConditionLabel" />
+
+</RelativeLayout>

@@ -20,4 +20,11 @@
     <dimen name="today_divider_width">2dp</dimen> <!-- may differ! -->
     <dimen name="today_divider_length">90dp</dimen> <!-- may differ! -->
     <dimen name="today_divider_margin">31dp</dimen> <!-- may differ! -->
+
+    <!-- Forecast scree dimensions -->
+    <dimen name="forecast_item_horizontal_padding">16dp</dimen>
+    <dimen name="forecast_item_vertical_padding">16dp</dimen>
+    <dimen name="forecast_icon_margin">16dp</dimen>
+    <dimen name="forecast_conditions_marginTop">8dp</dimen>
+    <dimen name="forecast_conditions_marginLeft">92dp</dimen>
 </resources>
