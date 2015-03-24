@@ -1,9 +1,9 @@
 <resources>
-    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>  <!-- may differ! -->
     <dimen name="activity_vertical_margin">16dp</dimen>
 
     <!-- Navigation drawer dimensions -->
-    <dimen name="drawer_width">264dp</dimen>
+    <dimen name="drawer_width">264dp</dimen>  <!-- may differ! -->
     <dimen name="drawer_vertical_padding">16dp</dimen>
     <dimen name="drawer_item_height">48dp</dimen>
     <dimen name="drawer_item_text_size">22dp</dimen>
@@ -11,13 +11,13 @@
     <dimen name="drawer_item_icon_padding">36dp</dimen>
 
     <!-- Today screen dimensions -->
-    <dimen name="today_header_width">280dp</dimen>
-    <dimen name="today_icon_margin">32dp</dimen>
+    <dimen name="today_header_width">280dp</dimen>  <!-- may differ! -->
+    <dimen name="today_icon_margin">32dp</dimen>  <!-- may differ! -->
     <dimen name="today_detail_minwidth">90dp</dimen>
     <dimen name="today_detail_horizontal_margin">4dp</dimen>
-    <dimen name="today_detail_vertical_margin">16dp</dimen>
+    <dimen name="today_detail_vertical_margin">16dp</dimen>  <!-- may differ! -->
     <dimen name="today_detail_drawable_margin">4dp</dimen>
-    <dimen name="today_divider_width">2dp</dimen>
-    <dimen name="today_divider_length">90dp</dimen>
-    <dimen name="today_divider_margin">31dp</dimen>
+    <dimen name="today_divider_width">2dp</dimen> <!-- may differ! -->
+    <dimen name="today_divider_length">90dp</dimen> <!-- may differ! -->
+    <dimen name="today_divider_margin">31dp</dimen> <!-- may differ! -->
 </resources>

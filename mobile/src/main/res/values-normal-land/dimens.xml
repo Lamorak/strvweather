@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Values for landscape -->
 <resources>
     <!-- Today screen dimensions -->
     <dimen name="today_header_width">240dp</dimen>

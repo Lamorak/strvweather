@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Values for landscape -->
 <resources>
+    <!-- These styles are used to change LinearLayout orientation based on device orientation -->
     <style name="AppTheme.Vertical">
         <item name="android:orientation">horizontal</item>
     </style>

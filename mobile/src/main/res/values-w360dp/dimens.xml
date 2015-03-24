@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Values for 360dp wide screen -->
 <resources>
     <dimen name="drawer_width">304dp</dimen>
 </resources>
