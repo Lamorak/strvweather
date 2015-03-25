@@ -3,8 +3,6 @@ package cz.lamorak.weather.android.activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
@@ -16,6 +14,7 @@ import android.view.MenuItem;
 
 import cz.lamorak.weather.android.R;
 import cz.lamorak.weather.android.entity.NavigationDrawerItem;
+import cz.lamorak.weather.android.fragment.AboutDialogFragment;
 import cz.lamorak.weather.android.fragment.ForecastFragment;
 import cz.lamorak.weather.android.fragment.NavigationDrawerFragment;
 import cz.lamorak.weather.android.fragment.TodayFragment;
@@ -68,6 +67,11 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
         if (actionBar != null) actionBar.setTitle(titleResource);
     }
 
+
+    private void showAboutDialog() {
+        new AboutDialogFragment().show(getFragmentManager(), null);
+    }
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         if (!navigationDrawerFragment.isDrawerOpen()) {
@@ -84,7 +88,10 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
             case R.id.action_settings:
                 Intent intent = new Intent(this, SettingsActivity.class);
                 startActivity(intent);
+                return true;
             case R.id.action_about:
+                showAboutDialog();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
