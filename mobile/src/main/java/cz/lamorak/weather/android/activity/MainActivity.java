@@ -1,7 +1,10 @@
 package cz.lamorak.weather.android.activity;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.widget.DrawerLayout;
@@ -79,6 +82,8 @@ public class MainActivity extends ActionBarActivity implements NavigationDrawerF
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
+                Intent intent = new Intent(this, SettingsActivity.class);
+                startActivity(intent);
             case R.id.action_about:
             default:
                 return super.onOptionsItemSelected(item);

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <cz.lamorak.weather.android.preference.CustomListPreference
+        android:key="@string/pref_unit_key"
+        android:title="@string/pref_unit_title"
+        android:persistent="true"
+        android:summary="%s"
+        android:negativeButtonText="@string/pref_cancel"
+        android:entries="@array/pref_entries_length"
+        android:entryValues="@array/pref_values_length"
+        android:defaultValue="@string/pref_unit_metric_value" />
+
+</PreferenceScreen>
